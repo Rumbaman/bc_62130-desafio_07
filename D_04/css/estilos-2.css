@@ -1,0 +1,200 @@
+/* START - FONTS */
+
+/* Press Start 2P Regular */
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+/* Mario Kart F2 - Regular */
+@font-face {
+    font-family: 'Mario Kart F2';
+    src: url('/fonts/Mario_Kart_2.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Mortal Kombat - MK11 */
+@font-face {
+    font-family: 'Mortal Kombat';
+    src: url('/fonts/Mortal_Kombat_11.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+/* END - FONTS */
+
+
+/* START - ELEMENTS */
+
+* {
+    font-family: Calibri, Arial, Helvetica, sans-serif;
+}
+
+body {
+    padding-left: 100px;
+    padding-right: 100px;
+    background: #fc00ff;  /* Fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #00dbde, #fc00ff);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #00dbde, #fc00ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */   
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+h3 {
+    color: white;
+}
+
+h4 {
+    text-align: right;
+    font-size: 10px;
+    padding-top: 20px;
+}
+
+p {
+    color: white;
+}
+
+a {
+    width: 100px;
+    height: 110px;
+    /*background-color: #2C8F20;*/
+    background-color: #FC4F00;
+    padding: 10px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+
+a:hover {
+    color: white;
+    /*background-color: #E11364;*/
+    background-color: #2C8F20;
+    cursor: pointer;
+}
+/* END - ELEMENTS */
+
+
+/* START - MAIN CLASSES */
+.h1_main {
+    font-family: 'Press Start 2P', sans-serif;
+    font-weight: bold;
+    font-size: 120px;
+    text-align: center;
+    color: yellow;    
+}
+
+.h2_main {
+    color: #16FF00;
+    text-align: center;
+    font-size: 80px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: red; /* Fallback for old browsers */
+    background-image: url('../img/celebrate.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.h3_main_mario {
+    font-family: 'Mario Kart F2', Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+
+.h3_main_mortal {
+    font-family: 'Mortal Kombat', Arial, Helvetica, sans-serif;
+    font-size: 27px;
+}
+
+.img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: solid white;
+}
+
+.boton {
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    padding-top: 10px;
+}
+/* END - MAIN CLASSES */
+
+
+/* START - MARIO CLASSES */
+.body_mario {
+    background-color: white; /* Fallback for old browsers */
+    background-image: url('../img/mario-kart-8-deluxe-flag.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.h1_mario {
+    font-family: 'Mario Kart F2', Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #19A7CE;
+    text-align: center;
+}
+
+.p_mario {
+    color: #DF2E38;
+    text-align: justify;
+    font-weight: 600;
+}
+
+.img_mario {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: solid #16FF00;
+    border-radius: 100%;
+    box-sizing: border-box;
+    border-bottom: 50px solid transparent;
+}
+/* END - MARIO CLASSES */
+
+
+/* START - MORTAL KOMBAT CLASSES */
+.body_mortal {
+    background-color: black; /* Fallback for old browsers */
+    background-image: url('../img/mortal-kombat-11-background.jpg');
+    background-repeat: repeat;
+    background-size: auto;
+}
+
+.h1_mortal {
+    font-family: 'Mortal Kombat', Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 70px;
+    text-align: center;
+    background-color: blue; /* Fallback for old browsers */
+    background-image: url('../img/mortal-kombat-11-logo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.p_mortal {
+    text-align: justify;
+    font-size: 20px;
+}
+
+.img_mortal {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    max-height: 50%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: solid red;
+	transform: skew(20deg);
+	background: #555;
+}
+/* END - MORTAL KOMBAT CLASSES */
