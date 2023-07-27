@@ -1,0 +1,131 @@
+/* Fuentes:
+- Audiowide: 400
+- Bungee Spice: 400
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Bungee+Spice&display=swap');
+
+/* ELEMENTOS */
+body {
+    background: url("../img/futuro-background.webp") no-repeat center center fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: Audiowide, sans-serif;
+    color: #EF15E1;
+    font-weight: 400;
+}
+
+h1 {
+    font-family: 'Bungee Spice', sans-serif;
+    font-size: 50px;
+    font-weight: 900;
+    text-align: center;
+    text-indent: .1em;
+    position: relative;
+    width: 450px;
+    height: 60px;
+    background: transparent;
+    padding: 15px 20px;
+    margin: auto;
+    border: 20px solid;
+    border-image-source: url('../img/futuro-background_h1.webp');
+    border-image-slice: 50 50;
+}
+
+fieldset {
+    border-color: #11F904;
+    background-color: rgba(48, 39 ,130, 0.5);
+    border-width: 7px;
+    border-radius: 10px;
+}
+
+legend {
+    font-weight: 900;
+    color: #11F904;
+    background-color: black;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+footer {
+    margin-top: 30px;
+}
+
+button {
+    font-size: 20px;
+    color: whitesmoke;
+    background-color: rgba(110, 158 ,178, 0.5);
+    padding: 15px 20px;
+    margin: 10px 20px;
+    border-width: 7px;
+    border-radius: 10px;
+    border-color: #11F904;
+}
+
+button:hover {
+    font-size: 25px;
+    color: #11F904;
+    background-color: black;
+    border-color: #EF15E1;
+}
+
+/* CLASES */
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    width: 700px;
+}
+
+.flex_vertical {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+.flex_horizontal {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
+
+.input_size {
+    width: 500px;
+    height: 30px;
+    margin-top: 10px;
+    border: 3px solid #11F904;
+    border-radius: 5px;
+}
+
+.input_size:hover {
+    color: whitesmoke;
+    background-color: black;
+}
+
+.text_area_size {
+    width: 500px;
+    height: 150px;
+    margin-top: 10px;
+    border: 3px solid #11F904;
+    border-radius: 5px;
+}
+
+.text_area_size:hover {
+    color: whitesmoke;
+    background-color: black;
+}
+
+.radio_buttom {
+    margin-top: 3px;
+    margin-right: 10px;
+    margin-left: 3px;
+}
+
+.placeholder {
+    text-align: right;
+}
+
+.dotted_line {
+    width: 300px;
+    margin: 25px auto;
+    border-bottom: 15px dotted aquamarine;
+}

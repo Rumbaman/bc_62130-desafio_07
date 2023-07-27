@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Los estilos a utilizar, ponerlos fuera de este comentario.
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/estilos-peliculas.css">
+    <link rel="stylesheet" href="css/estilos-futuro.css">
+    -->
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>Afiliación</title>
+</head>
+
+<body>
+    <!-- START DIV Header -->
+    <div class="center">
+        <header>
+            <h1>Vení al Gym! <img src="img/biceps.png" alt="Biceps"></h1>
+        </header>
+    </div>
+    <!-- END DIV Header -->
+
+    <!-- START MAIN -->
+    <main>
+        <!-- START DIV Main -->
+        <div class="center">
+            <!-- START FORM -->
+            <form action="">
+                <!-- START Datos Personales -->
+                <fieldset>
+                    <legend><img src="img/yo.png" alt="Mano alzada"> Datos Personales   <img src="img/ojos.png" alt="Ojos"></legend>
+                    
+                    <!-- START DIV Datos Personales -->
+                    <div>
+                        <div class="flex_vertical">
+                            <label for="nombre">Nombre:*</label>
+                            <input class="input_size" type="text" id="nombre" name="nombre" required>
+                            
+                            <br>
+    
+                            <label for="apellido">Apellido:*</label>
+                            <input class="input_size" type="text" id="apellido" name="apellido" required>
+                            
+                            <br>
+    
+                            <label for="doc">Documento:*</label>
+                            <input class="input_size" type="number" id="doc" name="documento" required>
+                            
+                            <br>
+    
+                            <label for="nac">Nacionalidad:*</label>
+                            <select class="input_size" name="nacionalidad" id="nac" required>
+                                <option value="seleccion">- Seleccionar -</option>
+                                <option value="argentina">Argentina</option>
+                                <option value="brasilera">Brasilera</option>
+                                <option value="uruguaya">Uruguaya</option>
+                                <option value="otro">Otro</option>
+                            </select>
+                            
+                            <br>
+    
+                            <label for="sobre_vos">Contanos un poco de vos...</label>
+                            <textarea class="text_area_size" id="sobre_vos" name="sobre_vos" cols="25" rows="3"></textarea>
+                        
+                            <br>
+
+                            <label style="padding-bottom: 10px;">Sexo:*</label>
+                        </div>
+
+                        <div class="flex_horizontal">
+                            <input type="radio" id="fem" name="sexo" value="femenino" checked required>
+                            <label class="radio_buttom" for="fem">Femenino</label>
+    
+                            <input type="radio" id="masc" name="sexo" value="masculino">
+                            <label class="radio_buttom" for="masc">Masculino</label>
+    
+                            <input type="radio" id="otro" name="sexo" value="otro">
+                            <label class="radio_buttom" for="otro">Otro</label>
+                        </div>
+                    </div>
+                    <!-- END DIV Datos Personales -->
+                </fieldset>
+                <!-- END Datos Personales-->
+
+                <div class="dotted_line"></div>
+
+                <!-- START Datos De Contacto -->
+                <fieldset>
+                    <legend><img src="img/celular.png" alt="Celular"> Datos de Contacto <img src="img/email.png" alt="Email"></legend>
+
+                    <div class="flex_vertical">
+                        <label for="tel">Teléfono:</label>
+                        <input class="input_size placeholder" type="number" id="tel" name="telefono" placeholder="Código de área y número">
+                        
+                        <br>
+    
+                        <label for="email">Dirección de correo electrónico:*</label>
+                        <input class="input_size placeholder" type="email" id="email" name="email" placeholder="Ej. mail@gmail.com">
+                    </div>
+                    
+                </fieldset>
+                <!-- END Datos De Contacto -->
+
+                <div class="dotted_line"></div>
+                
+                <!-- START Actividades-->
+                <fieldset>
+                    <legend><img src="img/ciclismo.png" alt="Ciclismo"> Actividades <img src="img/gimnasia.png" alt="Gimnasta"></legend>
+
+                    <p>Por favor, indicá cuáles actividades te interesan.</p>
+
+                    <!-- SEDE PALERMO -->
+                    <p>Sede Palermo:</p>
+
+                    <input type="checkbox" id="basquet" name="basquet" value="Básquet">
+                    <label for="basquet">Básquet</label>
+
+                    <input type="checkbox" id="box" name="boxeo" value="Boxeo">
+                    <label for="box">Boxeo</label>
+
+                    <input type="checkbox" id="futbol" name="futbol" value="Fútbol">
+                    <label for="futbol">Fútbol</label>
+
+                    <input type="checkbox" id="tenis" name="tenis" value="Tenis">
+                    <label for="tenis">Tenis</label>
+
+                    <!-- SEDE ROSARIO -->
+                    <p>Sede Rosario:</p>
+
+                    <input type="checkbox" id="basquet" name="basquet" value="Básquet">
+                    <label for="basquet">Básquet</label>
+
+                    <input type="checkbox" id="futbol" name="futbol" value="Fútbol">
+                    <label for="futbol">Fútbol</label>
+                    
+                    <input type="checkbox" id="rugby" name="rugby" value="Rugby">
+                    <label for="rugby">Rugby</label>
+
+                    <input type="checkbox" id="voley" name="voley" value="Voley">
+                    <label for="voley">Voley</label>
+                </fieldset>
+                <!-- END Actividades-->
+                
+                <!-- START Footer-->
+                <footer>
+                    <input type="checkbox" id="acepto" name="acepto" required>
+                    <label for="acepto">Acepto las condiciones*</label>
+        
+                    <br>
+        
+                    <input type="checkbox" id="novedad" name="novedades" checked>
+                    <label for="novedad">Deseo recibir novedades</label>
+        
+                    <br>
+                    
+                    <p>*: campo obligatorio.</p>
+                    
+                    <div class="flex_horizontal">
+                        <button type="submit">Iniciar afiliación</button>
+                        <button type="reset">Restablecer</button>
+                    </div>
+                </footer>
+                <!-- END Footer-->
+            </form>
+            <!-- END FORM -->
+        </div>
+        <!-- END DIV Main -->
+    </main>
+    <!-- END MAIN -->
+</body>
+</html>
