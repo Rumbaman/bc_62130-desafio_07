@@ -1,0 +1,122 @@
+/* Charcoal - Regular */
+@font-face {
+    font-family: Charcoal;
+    src: url('/fonts/charcoal/Charcoal.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Gadget - Regular */
+@font-face {
+    font-family: Gadget;
+    src: url('/fonts/gadget/Gadget.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Lucida Grande - Regular */
+@font-face {
+    font-family: 'Lucida Grande';
+    src: url('/fonts/lucida_grande/LucidaGrande-Regular.otf') format('otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Lucida Grande - Bold */
+@font-face {
+    font-family: 'Lucida Grande';
+    src: url('/fonts/lucida_grande/LucidaGrande-Bold.otf') format('otf');
+    font-weight: bold;
+    font-style: normal;
+}
+
+/* Lucida Grande - Bold Italic */
+@font-face {
+    font-family: 'Lucida Grande';
+    src: url('/fonts/lucida_grande/LucidaGrande-BoldItalic.otf') format('otf');
+    font-weight: bold;
+    font-style: italic;
+}
+
+body {
+    background-color: #16242b;
+    color: white;
+}
+
+h1 {
+    font-family: Impact, 'Charcoal', sans-serif;
+    font-weight: bold;
+    font-size: 100px;
+    color: #56717f;
+    text-align: center;
+    background-color: white;
+}
+
+h2 {
+    font-family: 'Arial Black', Arial, 'Gadget', sans-serif;
+    font-size: 50px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+p {
+    font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+    font-weight: 300;
+    text-align: justify;
+}
+
+.aspiradora {
+    color: pink;
+    font-weight: 900;
+}
+
+.celular {
+    color: skyblue;
+    font-weight: 900;
+}
+
+.consola {
+    color: #aeb1b2;
+    font-weight: 900;
+}
+
+.ht {
+    color: grey;
+    font-weight: 900;
+}
+
+.tv {
+    color: lightgrey;
+    font-weight: 900;
+}
+
+.img_margin_left {
+    margin-left: 70px;
+}
+
+.border_aspiradora {
+    border-color: pink;
+    border-style: solid;
+    border-width: 5px;
+}
+
+.border_celular {
+    border-color: skyblue;
+    border-style: solid;
+    border-width: 5px;
+}
+.border_consola {
+    border-color: #aeb1b2;
+    border-style: solid;
+    border-width: 5px;
+}
+.border_ht {
+    border-color: grey;
+    border-style: solid;
+    border-width: 5px;
+}
+.border_tv {
+    border-color: lightgrey;
+    border-style: solid;
+    border-width: 5px;
+}
