@@ -1,0 +1,17 @@
+********************
+***  DESAFÍO 07  ***
+********************
+
+* Links de la primera parte del desafío
+======================================== 
+https://github.com/Rumbaman/bc_62130-desafio_01
+https://github.com/Rumbaman/bc_62130-desafio_02
+https://github.com/Rumbaman/bc_62130-desafio_03
+https://github.com/Rumbaman/bc_62130-desafio_04
+https://github.com/Rumbaman/bc_62130-desafio_05
+https://github.com/Rumbaman/bc_62130-desafio_06
+
+
+* Link de la segunda parte del desafío
+=======================================
+https://github.com/Rumbaman/bc_62130-desafio_07
